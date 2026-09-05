@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { flow } from '@/lib/flow'
-import { FlowTable } from '@/components/flowos' // Servicenow
+import { FlowTable } from '@/components/flowos' // servicenow developer
 
 export default function HomePage() {
   const [showCreate, setShowCreate] = useState(false)
